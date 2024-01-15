@@ -1,9 +1,30 @@
 footer {
     text-align: center;
-    /* height: 10%; */
     background-color: rgb(53, 196, 72);
+    color: white;
 }
 
-footer img {
-    margin: 2rem;
+footer div {
+    padding: 3rem;
+}
+
+footer ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 1rem 0;
+}
+
+footer li {
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: black;
 }
