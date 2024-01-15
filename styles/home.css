@@ -19,6 +19,7 @@ h2 {
     margin: 1rem 0;
     letter-spacing: 1px;
     font-size: 1.8rem;
+    color: rgb(93, 93, 93);
 }
 
 .home-article-blog-preview p {
@@ -26,7 +27,31 @@ h2 {
 }
 
 .blog-preview {
-    /* margin: 2rem; */
-    width: 49%;
-    background-color: aqua;
+    width: 46%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+.blog-preview h3 {
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+    color: rgb(93, 93, 93);
+    margin-bottom: -2rem;
+}
+
+.blog-preview article {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.blog-preview div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    width: 60%;
+    margin-left: 10px;
+    margin-right: 2rem;
 }
