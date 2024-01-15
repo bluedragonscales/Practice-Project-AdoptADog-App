@@ -55,3 +55,25 @@ h2 {
     margin-left: 10px;
     margin-right: 2rem;
 }
+
+.dog-preview {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin: 2rem;
+    color: rgb(93, 93, 93);
+    font-size: 1.2rem;
+}
+
+.featured-dogs {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.featured-dogs article {
+    height: 200px;
+    width: 200px;
+    background-color: lightgray;
+    margin-top: 1rem;
+}
