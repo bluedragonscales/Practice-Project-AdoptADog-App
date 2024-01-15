@@ -1,0 +1,9 @@
+footer {
+    text-align: center;
+    height: 10%;
+    background-color: rgb(53, 196, 72);
+}
+
+footer img {
+    margin: 2rem;
+}

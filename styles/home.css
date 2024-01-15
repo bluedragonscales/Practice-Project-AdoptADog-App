@@ -1,0 +1,32 @@
+main {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.home-article-blog-preview {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 1rem;
+    justify-content: space-between;
+}
+
+.home-article {
+    text-align: justify;
+    width: 48%;
+}
+
+h2 {
+    margin: 1rem 0;
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+}
+
+.home-article-blog-preview p {
+    margin-bottom: 1rem;
+}
+
+.blog-preview {
+    /* margin: 2rem; */
+    width: 49%;
+    background-color: aqua;
+}
