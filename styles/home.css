@@ -56,6 +56,28 @@ h2 {
     margin-right: 2rem;
 }
 
+.blog-preview a {
+    text-decoration: none;
+    color: rgb(93, 93, 93);
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 850px) {
+    .blog-preview img {
+        height: 100px;
+    }
+
+    .third-dog-feature {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .second-dog-feature {
+        display: none;
+    }
+}
+
 .dog-preview {
     display: flex;
     flex-flow: column nowrap;
@@ -73,7 +95,34 @@ h2 {
 
 .featured-dogs article {
     height: 200px;
-    width: 200px;
+    width: 300px;
     background-color: lightgray;
     margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+.featured-dogs a {
+    text-decoration: none;
+    color: rgb(93, 93, 93);
+    letter-spacing: 1px;
+    padding: 6rem 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .blog-preview {
+        display: none;
+    }
+
+    .dog-preview {
+        display: none;
+    }
+
+    .home-article-blog-preview {
+        display: block;
+        width: 100%;
+    }
+
+    .home-article {
+        width: 95%;
+    }
 }
