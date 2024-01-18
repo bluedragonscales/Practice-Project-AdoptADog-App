@@ -60,6 +60,7 @@ h1 {
 }
 
 .cart button {
+    cursor: pointer;
     font-size: 2.1rem;
     border-radius: 10px;
     padding: 5px;
