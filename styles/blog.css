@@ -15,6 +15,7 @@ article {
 article p {
     text-align: justify;
     padding: 10px 0;
+    text-wrap: wrap;
 }
 
 article div {
@@ -24,10 +25,15 @@ article div {
     margin: 2rem;
 }
 
+article img {
+    width: 30%;
+}
+
 hr {
     display: none;
     background-color: rgb(53, 196, 72);
     height: 2px;
+    width: 99%;
     border: none;
 }
 
@@ -125,4 +131,10 @@ input[type="submit"] {
     letter-spacing: 1px;
     color: white;
     background-color: rgb(53, 196, 72);
+}
+
+@media only screen and (max-width: 780px) {
+    .add-post-form {
+        width: 95%;
+    }
 }

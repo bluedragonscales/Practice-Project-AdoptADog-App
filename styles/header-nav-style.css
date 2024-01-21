@@ -7,7 +7,7 @@
 
 header {
     background-image: url('../images/header-image.jpg');
-    background-color: brown;
+    background-color: black;
     background-size: cover;
     height: 400px;
     display: flex;

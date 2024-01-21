@@ -40,11 +40,11 @@
 
 
     <!-- MAIN SECTION -->
-    <main>
+    <main id="blogMain">
 
         <!-- ARTICLES -->
         <article>
-            <img src="images/blog-1.jpg" alt="Blog image" width="30%">
+            <img src="images/blog-1.jpg" alt="Blog image">
             <div>
                 <h3>Blog Title 1</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit numquam adipisci excepturi non quae quisquam modi quas reprehenderit vel culpa, corrupti maxime consectetur quasi nisi. Ut dicta eaque consequatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A omnis dicta, aspernatur id aliquam autem aut laboriosam ut, veniam totam quidem maiores, perferendis earum hic optio enim est ipsum cupiditate?</p>
@@ -55,7 +55,7 @@
         <hr>
 
         <article>
-            <img src="images/blog-2.jpg" alt="Blog image" width="30%">
+            <img src="images/blog-2.jpg" alt="Blog image">
             <div>
                 <h3>Blog Title 2</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit numquam adipisci excepturi non quae quisquam modi quas reprehenderit vel culpa, corrupti maxime consectetur quasi nisi. Ut dicta eaque consequatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A omnis dicta, aspernatur id aliquam autem aut laboriosam ut, veniam totam quidem maiores, perferendis earum hic optio enim est ipsum cupiditate?</p>
@@ -66,7 +66,7 @@
         <hr>
 
         <article>
-            <img src="images/blog-3.jpg" alt="Blog image" width="30%">
+            <img src="images/blog-3.jpg" alt="Blog image">
             <div>
                 <h3>Blog Title 3</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit numquam adipisci excepturi non quae quisquam modi quas reprehenderit vel culpa, corrupti maxime consectetur quasi nisi. Ut dicta eaque consequatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A omnis dicta, aspernatur id aliquam autem aut laboriosam ut, veniam totam quidem maiores, perferendis earum hic optio enim est ipsum cupiditate?</p>
@@ -78,17 +78,17 @@
         <button class="add-post-btn" id="addPostBtn">Add Post</button>
 
 
-        <!-- ADD POST INPUTS -->
+        <!-- ADD POST FORM -->
         <form class="add-post-form" id="addPostForm" action="">
             
             <label for="title">Post Title</label>
-            <input type="text" id="title" maxlength="30">
+            <input type="text" id="title" maxlength="30" required>
 
             <label for="postBody">Post Body</label>
-            <textarea name="post" id="postBody" cols="40" rows="10" maxlength="300"></textarea>
+            <textarea name="post" id="postBody" cols="40" rows="10" maxlength="300" required></textarea>
 
             <div class="submit-btns">
-                <input type="submit" value="Submit Post">
+                <input type="submit" value="Submit Post" id="formAddPostBtn">
                 <input type="submit" value="Cancel Post" id="cancelPostBtn">
             </div>
         </form>
