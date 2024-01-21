@@ -1,3 +1,4 @@
+// BLOG JAVASCRIPT
 let postBtn = document.getElementById('addPostBtn');
 let postForm = document.getElementById('addPostForm');
 let cancelPost = document.getElementById('cancelPostBtn');
