@@ -75,13 +75,22 @@
         </article>
 
         <!-- ADD POST BUTTON -->
-        <button>Add Post</button>
+        <button class="add-post-btn" id="addPostBtn">Add Post</button>
 
 
         <!-- ADD POST INPUTS -->
-        <form action="">
-            <input type="text">
-            <textarea name="post" id="" cols="30" rows="10"></textarea>
+        <form class="add-post-form" id="addPostForm" action="">
+            
+            <label for="title">Post Title</label>
+            <input type="text" id="title" maxlength="30">
+
+            <label for="postBody">Post Body</label>
+            <textarea name="post" id="postBody" cols="40" rows="10" maxlength="300"></textarea>
+
+            <div class="submit-btns">
+                <input type="submit" value="Submit Post">
+                <input type="submit" value="Cancel Post" id="cancelPostBtn">
+            </div>
         </form>
 
     </main>
@@ -90,7 +99,7 @@
     <!-- FOOTER SECTION -->
     <footer>
         <div>
-            <img src="images/adoptadog-logo.svg" alt="" width="20%">
+            <img src="images/adoptadog-logo.svg" alt="" width="40%">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, atque.</p>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -102,4 +111,5 @@
     </footer>
     
 </body>
+    <script src="scripts/scripts.js"></script>
 </html>
