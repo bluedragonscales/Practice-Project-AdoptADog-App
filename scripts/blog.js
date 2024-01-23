@@ -54,7 +54,6 @@ addPost.addEventListener('click', function() {
     blogMain.prepend(newArticle);
     blogMain.prepend(newHR);
     
-    title.value = '';
-    postBody.value = '';
+    postForm.reset();
     postForm.style.display = 'none';
 });
