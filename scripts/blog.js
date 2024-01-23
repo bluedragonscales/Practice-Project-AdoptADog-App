@@ -51,8 +51,8 @@ addPost.addEventListener('click', function() {
     newArticle.appendChild(newDiv);
 
     // Add the new hr and article at the top of the main element.
-    blogMain.prepend(newArticle);
     blogMain.prepend(newHR);
+    blogMain.prepend(newArticle);
     
     postForm.reset();
     postForm.style.display = 'none';
